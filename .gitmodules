@@ -1,0 +1,3 @@
+[submodule "0x05-pointers_arrays_strings/0x05-pointers_arrays_strings/0x04.c"]
+	path = 0x05-pointers_arrays_strings/0x05-pointers_arrays_strings/0x04.c
+	url = https://github.com/alx-tools/0x04.c.git
