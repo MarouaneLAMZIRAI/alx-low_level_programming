@@ -25,5 +25,8 @@ void print_dog(struct dog *d);
 /* Define a new type dog_t as an alias for struct dog */
 typedef struct dog dog_t;
 
+/* Prototype for the new_dog function */
+dog_t *new_dog(char *name, float age, char *owner);
+
 
 #endif /* DOG_H */
