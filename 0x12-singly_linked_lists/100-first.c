@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * __attribute__ - prints ou're beat! and yet, you must allow,\nI ... etc
+ * premain - Function that runs before the main function.
  *
- * Return: nothing
+ * Description: This function is marked with the constructor attribute,
+ * so it will be executed automatically before the main function.
+ * It prints a specific message to the standard output.
  */
 void __attribute__ ((constructor)) premain()
 {
